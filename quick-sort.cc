@@ -19,7 +19,7 @@ int Partition(keytype*A, int p, int r)
   int pivotValue = A[pivotPos];
   std::swap(A[r],A[pivotPos]);
 
-  int i = p = 1;
+  int i = p - 1;
   for(int j = p; j <= r-1; ++j)
   {
 
